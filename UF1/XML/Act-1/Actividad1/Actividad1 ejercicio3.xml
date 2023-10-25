@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UF-8"?>
+<supermercado>   
+    <fruta>
+        <nombre>Melón</nombre>
+        <precio>3.50</precio>
+        <origen>México</origen>
+        <cantidad_disponible>35</cantidad_disponible>
+    </fruta>
+    <verdura>
+        <nombre>Brócoli</nombre>
+        <precio>1.50</precio>
+        <origen>Local</origen>
+        <cantidad_disponible>20</cantidad_disponible>
+    </verdura>
+</supermercado>

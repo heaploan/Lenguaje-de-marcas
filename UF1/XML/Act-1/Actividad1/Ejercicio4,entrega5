@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Inventario [
+    <!ELEMENT Inventario (Producto+)>
+    <!ELEMENT Producto (CodigoBarras,Productor,Categoria,NombreProducto,Descripcion,Precio,Stock,Foto)>
+    <!ELEMENT CodigoBarras (#PCDATA)>
+    <!ELEMENT Productor (#PCDATA)>
+    <!ELEMENT Categoria (#PCDATA)>
+    <!ELEMENT NombreProducto (#PCDATA)>
+    <!ELEMENT Descripcion (#PCDATA)>
+    <!ELEMENT Precio (#PCDATA)>
+    <!ELEMENT Stock (#PCDATA)>
+    <!ELEMENT Foto (#PCDATA)>
+]>
+<Inventario>
+    <Producto>
+        <CodigoBarras>123456789</CodigoBarras>
+        <Productor>Productor1</Productor>
+        <Categoria>Categoria1</Categoria>
+        <NombreProducto>Producto1</NombreProducto>
+        <Descripcion>Descripción del Producto 1</Descripcion>
+        <Precio>19.99</Precio>
+        <Stock>100</Stock>
+        <Foto>producto1.jpg</Foto>
+    </Producto>
+    <Producto>
+        <CodigoBarras>987654321</CodigoBarras>
+        <Productor>Productor2</Productor>
+        <Categoria>Categoria2</Categoria>
+        <NombreProducto>Producto2</NombreProducto>
+        <Descripcion>Descripción del Producto 2</Descripcion>
+        <Precio>29.99</Precio>
+        <Stock>50</Stock>
+        <Foto>producto2.jpg</Foto>
+    </Producto>
+</Inventario>

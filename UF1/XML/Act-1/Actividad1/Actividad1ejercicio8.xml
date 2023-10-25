@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UF-8"?>
+<videoclub>
+    <pelicula categorias="drama crimen suspense">
+        <nombre>Joker</nombre>
+        <fecha>4 de octubre del 2019</fecha>
+        <duración>2h2min</duración>
+        <dirección>Todd Phillips</dirección>
+        <guión>Todd Phillips - Schott Silver - Bob Kane</guión>
+        <reparto_principal>Joaquin Phoenix - Robert De Niro - Zazie Beetz</reparto_principal>
+        <sinópsis>La historia muestra cómo la violencia y la alienación lo llevan a adoptar una identidad caótica y a convertirse en un símbolo de protesta contra la injusticia social y la corrupción.</sinópsis>
+    </pelicula>
+</videoclub>

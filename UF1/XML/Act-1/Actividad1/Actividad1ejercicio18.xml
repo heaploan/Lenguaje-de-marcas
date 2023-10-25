@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crypto_cotizacion>
+    <moneda>
+        <nombre>Bitcoin</nombre>
+        <codigo>BTC</codigo>
+    </moneda>
+    <precio_actual>$55,000.00</precio_actual>
+    <variacion_24h>+2.5%</variacion_24h>
+    <capitalizacion_mercado>$1,000,000,000,000</capitalizacion_mercado>
+    <volumen_24h>$50,000,000,000</volumen_24h>
+    <fecha_actualizacion>2023-10-04T12:00:00Z</fecha_actualizacion>
+</crypto_cotizacion>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura_agua>
+    <informacion_cliente>
+        <nombre>Juan Pérez</nombre>
+        <direccion>Calle Principal, 123</direccion>
+        <ciudad>Ciudad Ejemplo</ciudad>
+        <codigo_postal>12345</codigo_postal>
+    </informacion_cliente>
+    <informacion_factura>
+        <numero_factura>2023-001</numero_factura>
+        <fecha_emision>2023-10-04</fecha_emision>
+        <fecha_vencimiento>2023-10-25</fecha_vencimiento>
+    </informacion_factura>
+    <detalle_consumo>
+        <medidor_numero>56789</medidor_numero>
+        <lectura_anterior>2500</lectura_anterior>
+        <lectura_actual>2700</lectura_actual>
+        <consumo_metros_cubicos>200</consumo_metros_cubicos>
+        <tarifa_por_metro_cubico>2.50</tarifa_por_metro_cubico>
+        <subtotal>500.00</subtotal>
+    </detalle_consumo>
+    <consumo_total_metros_cubicos>200</consumo_total_metros_cubicos>
+    <total_a_pagar>500.00</total_a_pagar>
+</factura_agua>

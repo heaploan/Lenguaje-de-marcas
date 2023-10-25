@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<datos>
+	<dni>
+		<nombre> Luis </nombre>
+		<apellido> Garcia </apellido>
+		<nif> 12345678 </nif>
+	</dni>
+	<dni>
+		<nombre> Pepe </nombre>
+		<apellido> Lorca </apellido>
+		<nif> 65789421 </nif>
+	</dni>
+</datos>
+
