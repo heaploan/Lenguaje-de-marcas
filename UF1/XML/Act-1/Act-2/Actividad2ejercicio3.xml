@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Peliculas [
+    <!ELEMENT Peliculas (pelicula+)>
+    <!ELEMENT pelicula (titulo,director+,actor+,año,nacionalidad)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT director (nombre,apellido,edad)>
+    <!ELEMENT actor (nombre,apellido,edad)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT nacionalidad (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ATTLIST pelicula 
+        genero CDATA #IMPLIED>
+    <!ATTLIST director 
+        nacionalidad CDATA #IMPLIED>
+]>
+<Peliculas>
+    <pelicula genero="Acción">
+        <titulo>Matrix</titulo>
+        <director nacionalidad="Estadounidense">
+            <nombre>Lana</nombre>
+            <apellido>Wachowski</apellido>
+            <edad>50</edad>
+        </director>
+        <actor>
+            <nombre>Keanu</nombre>
+            <apellido>Reeves</apellido>
+            <edad>55</edad>
+        </actor>
+        <actor>
+            <nombre>Carrie-Anne</nombre>
+            <apellido>Moss</apellido>
+            <edad>45</edad>
+        </actor>
+        <año>1999</año>
+        <nacionalidad>Estadounidense</nacionalidad>
+    </pelicula>
+    <pelicula genero="Drama">
+        <titulo>El Padrino</titulo>
+        <director nacionalidad="Estadounidense">
+            <nombre>Francis Ford</nombre>
+            <apellido>Coppola</apellido>
+            <edad>70</edad>
+        </director>
+        <actor>
+            <nombre>Marlon</nombre>
+            <apellido>Brando</apellido>
+            <edad>55</edad>
+        </actor>
+        <actor>
+            <nombre>Al</nombre>
+            <apellido>Pacino</apellido>
+            <edad>40</edad>
+        </actor>
+        <año>1972</año>
+        <nacionalidad>Estadounidense</nacionalidad>
+    </pelicula>
+</Peliculas>
