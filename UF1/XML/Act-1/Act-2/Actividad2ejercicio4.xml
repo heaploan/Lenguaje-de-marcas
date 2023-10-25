@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tren [
+    <!ELEMENT tren (trayecto+)>
+    <!ELEMENT trayecto (origen, destino, parada+)>
+    <!ELEMENT origen (#PCDATA)>
+    <!ELEMENT destino (#PCDATA)>
+    <!ELEMENT parada (#PCDATA)>
+    <!ATTLIST trayecto tipo
+        (regional|talgo|euromed|ave) CDATA #IMPLIED>
+]>
+<tren>
+    <trayecto tipo="ave">
+        <origen>Ciudad A</origen>
+        <destino>Ciudad B</destino>
+        <parada>Estación 1</parada>
+        <parada>Estación 2</parada>
+        <parada>Estación 3</parada>
+    </trayecto>
+    <trayecto tipo="regional">
+        <origen>Ciudad C</origen>
+        <destino>Ciudad D</destino>
+        <parada>Estación X</parada>
+        <parada>Estación Y</parada>
+    </trayecto>
+</tren>
