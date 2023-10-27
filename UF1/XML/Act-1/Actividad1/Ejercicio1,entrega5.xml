@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cataluna[
+<!ELEMENT Cataluna (Comarca+)>
+<!ELEMENT Comarca (Nombre, CodigoAlfabetico, CodigoTerritorial, Habitantes, Superficie, Capital)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT CodigoAlfabetico (#PCDATA)>
+<!ELEMENT CodigoTerritorial (#PCDATA)>
+<!ELEMENT Habitantes (#PCDATA)>
+<!ELEMENT Superficie (#PCDATA)>
+<!ELEMENT Capital (#PCDATA)>
+]>
+<Cataluna>
+    <Comarca>
+        <Nombre>Comarca1</Nombre>
+        <CodigoAlfabetico>C1</CodigoAlfabetico>
+        <CodigoTerritorial>CT1</CodigoTerritorial>
+        <Habitantes>100000</Habitantes>
+        <Superficie>5000</Superficie>
+        <Capital>Capital1</Capital>
+    </Comarca>
+    <Comarca>
+        <Nombre>Comarca2</Nombre>
+        <CodigoAlfabetico>C2</CodigoAlfabetico>
+        <CodigoTerritorial>CT2</CodigoTerritorial>
+        <Habitantes>80000</Habitantes>
+        <Superficie>4000</Superficie>
+        <Capital>Capital2</Capital>
+    </Comarca>
+</Cataluna>

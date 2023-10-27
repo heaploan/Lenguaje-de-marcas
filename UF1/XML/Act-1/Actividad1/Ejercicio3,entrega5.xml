@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pabellones [
+    <!ELEMENT Pabellones (Pabellon+)>
+    <!ELEMENT Pabellon (ID, Club, Nombre, Ciudad, Provincia, Coordenades, Descripcion, Fecha)>
+    <!ELEMENT ID (#PCDATA)>
+    <!ELEMENT Club (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Ciudad (#PCDATA)>
+    <!ELEMENT Provincia (#PCDATA)>
+    <!ELEMENT Coordenades (#PCDATA)>
+    <!ELEMENT Descripcion (#PCDATA)>
+    <!ELEMENT Fecha (#PCDATA)>
+]>
+<Pabellones>
+    <Pabellon>
+        <ID>1</ID>
+        <Club>Club A</Club>
+        <Nombre>Pabellon 1</Nombre>
+        <Ciudad>Ciudad 1</Ciudad>
+        <Provincia>Provincia 1</Provincia>
+        <Coordenades>Lat: 42.123, Long: 2.456</Coordenades>
+        <Descripcion>Descripción del pabellón 1.</Descripcion>
+        <Fecha>2023-10-17</Fecha>
+    </Pabellon>
+    <Pabellon>
+        <ID>2</ID>
+        <Club>Club B</Club>
+        <Nombre>Pabellon 2</Nombre>
+        <Ciudad>Ciudad 2</Ciudad>
+        <Provincia>Provincia 2</Provincia>
+        <Coordenades>Lat: 41.789, Long: 1.234</Coordenades>
+        <Descripcion>Descripción del pabellón 2.</Descripcion>
+        <Fecha>2023-10-18</Fecha>
+    </Pabellon>
+</Pabellones>
