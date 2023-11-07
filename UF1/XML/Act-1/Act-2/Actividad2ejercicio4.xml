@@ -6,7 +6,7 @@
     <!ELEMENT destino (#PCDATA)>
     <!ELEMENT parada (#PCDATA)>
     <!ATTLIST trayecto tipo
-        (regional|talgo|euromed|ave) CDATA #IMPLIED>
+        (regional|talgo|euromed|ave) #IMPLIED>
 ]>
 <tren>
     <trayecto tipo="ave">
