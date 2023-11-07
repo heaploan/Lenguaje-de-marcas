@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UF-8"?>  
-<accion>
-    <titulo>ABC Corporation</titulo>
-    <fecha>2023-09-19</fecha>
-    <cotizacion_apertura>50.00</cotizacion_apertura>
-    <cotizacion_maxima>55.25</cotizacion_maxima>
-    <cotizacion_minima>49.75</cotizacion_minima>
-    <cotizacion_cierre>54.00</cotizacion_cierre>
-</accion>

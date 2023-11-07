@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UF-8"?>
-<datos>
-    <alumno>
-        <nombre>Francisco</nombre>
-        <apellido>Gutierrez</apellido>
-        <nif>12345678A</nif>
-        <portatil>Si/No</portatil>
-    </alumno>
-</datos>
