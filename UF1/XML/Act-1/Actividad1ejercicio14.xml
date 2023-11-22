@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Titulo del Canal de RSS</title>
+        <link>http://www.calamot.com</link>
+        <description>Descripción del canal del blog</description>
+        <language>es-ES</language>
+        <image>
+            <title>Titulo de la imagen</title>
+            <url>http://www.calamot.com/logotipo-del-rss.png</url>
+            <link>http://www.calamot.com</link>
+            <width>90</width>
+            <height>36</height>
+        </image>
+        <item>
+            <Title>Titulo del primer artículo</Title>
+            <link>www.calamot.com</link>
+            <description>Un resumen del contenido de la entrada. Puede ser de dos líneas como máximo</description>
+        </item>
+    </channel>
+</rss>

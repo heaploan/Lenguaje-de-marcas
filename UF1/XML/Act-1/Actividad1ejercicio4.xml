@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UF-8"?>
+<DNI>
+    <datos>
+        <apellidos>Gutierrez Garcia</apellidos>
+        <nombre>Fernando</nombre>
+        <sexo>M</sexo>
+        <nacionalidad>ESP</nacionalidad>
+        <fecha_de_nacimiento>25/02/1981</fecha_de_nacimiento>
+        <num_soport>JKL125432</num_soport>
+        <validez>10 07 2030</validez>
+        <dni>56789873L</dni>
+    </datos>
+</DNI>

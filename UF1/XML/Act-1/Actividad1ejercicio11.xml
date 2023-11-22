@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UF-8"?>
+<flota_vehiculos>
+  <vehiculo>
+    <marca>Toyota</marca>
+    <modelo>Corolla</modelo>
+    <año>2022</año>
+    <tipo>Sedán</tipo>
+    <disponibilidad>Disponible</disponibilidad>
+    <precio_por_dia>$50</precio_por_dia>
+  </vehiculo>
+  <vehiculo>
+    <marca>Ford</marca>
+    <modelo>Escape</modelo>
+    <año>2023</año>
+    <tipo>SUV</tipo>
+    <disponibilidad>Disponible</disponibilidad>
+    <precio_por_dia>$65</precio_por_dia>
+  </vehiculo>
+  <vehiculo>
+    <marca>Honda</marca>
+    <modelo>Civic</modelo>
+    <año>2022</año>
+    <tipo>Sedán</tipo>
+    <disponibilidad>No disponible</disponibilidad>
+    <precio_por_dia>$55</precio_por_dia>
+  </vehiculo>
+</flota_vehiculos>

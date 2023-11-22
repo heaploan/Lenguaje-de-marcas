@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Company[ 
+<!ELEMENT Company (Employee)>
+<!ELEMENT Employee (FirstName,LastName,ContactNo,Email,Address)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT ContactNo (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Address (City,State,Zip)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT State (#PCDATA)>
+<!ELEMENT Zip (#PCDATA)>
+]>
+<Company>
+<Employee>
+    <FirstName>Tanmay</FirstName>
+    <LastName>Patil</LastName>
+    <ContactNo>1234567890</ContactNo>
+    <Email>tanmaypatil@xyz.com</Email>
+    <Address>
+         <City>Bangalore</City>
+         <State>Karnataka</State>
+         <Zip>560212</Zip>
+    </Address>
+</Employee>
+</Company>

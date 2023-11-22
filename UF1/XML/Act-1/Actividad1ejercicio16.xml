@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<propiedad_inmobiliaria>
+    <direccion_inmueble>
+        <calle>Calle de la Paz, 123</calle>
+        <poblacion>Madrid</poblacion>
+        <cp>28001</cp>
+    </direccion_inmueble>
+    <caracteristicas_zona>
+        <zona>Centro</zona>
+        <transportes>Metro, Autobús</transportes>
+        <aparcamiento>Disponible en la calle</aparcamiento>
+        <carril_bici>Sí</carril_bici>
+        <comercios>Supermercados, Tiendas locales</comercios>
+        <centro_salud>Hospital Central</centro_salud>
+        <otros>Parques, Escuelas</otros>
+    </caracteristicas_zona>
+    <caracteristicas_edificio>
+        <año_construccion>1990</año_construccion>
+        <Pisos_por_planta>4</Pisos_por_planta>
+        <Reformas>Recientemente renovado</Reformas>
+        <zonas_comunes>Área de piscina, Gimnasio</zonas_comunes>
+        <tipo_portero>Portero automático</tipo_portero>
+        <ascensor>Sí</ascensor>
+        <n_plantas_edif>10</n_plantas_edif>
+        <azotea_tenderer>Sí</azotea_tenderer>
+        <barreras_arqu>No</barreras_arqu>
+    </caracteristicas_edificio>
+    <caracteristicas_inmueble_venta_alquiler>
+        <tipo>Apartamento</tipo>
+        <superficie_util>80 m²</superficie_util>
+        <dormitorios>2</dormitorios>
+        <plaza_parking>Sí</plaza_parking>
+        <calefaccion>Central</calefaccion>
+        <suelos>Parquet</suelos>
+        <ventanas>Doble acristalamiento</ventanas>
+        <gas_tipo>Natural</gas_tipo>
+        <pago_ibi_sem>200€</pago_ibi_sem>
+        <estado_gral_in>Buen estado</estado_gral_in>
+        <locales>
+            <fachada>En buen estado</fachada>
+            <licencia>Comercial</licencia>
+            <s_humos>Sí</s_humos>
+        </locales>
+        <orientacion>Sur</orientacion>
+        <construida_suelo>100 m²</construida_suelo>
+        <baños>1</baños>
+        <trastero>No</trastero>
+        <aire_acondicionado>Sí</aire_acondicionado>
+        <puertas>Madera</puertas>
+        <paredes>Pintadas</paredes>
+        <luz_contrato>Contrato activo</luz_contrato>
+        <comunidad_agua>45€/mes</comunidad_agua>
+        <cert_efic_energ>Certificado A</cert_efic_energ>
+        <amueblado_s_n>Amueblado</amueblado_s_n>
+        <descripcion_reformas_año>Se realizó una renovación completa en 2022.</descripcion_reformas_año>
+    </caracteristicas_inmueble_venta_alquiler>
+</propiedad_inmobiliaria>

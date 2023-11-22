@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e1:jardineria xmlns:e1="http//www.calamot.com/ejemplo1" xmlns:e2="http//www.calamot.com/ejemplo2">    
+    <e1:edificio>
+        <e1:plantas>
+            <e1:planta num="bajos">
+                <e1:seccion>Arboles Frutales</e1:seccion>
+                <e1:seccion>Jardines</e1:seccion>
+            </e1:planta>
+            <e1:planta num="Primera">
+                <e1:seccion>Plantas
+                    <e2:plantas>
+                        <e2:planta>Rosas</e2:planta>
+                        <e2:planta>Geranios</e2:planta>
+                    </e2:plantas>
+                </e1:seccion>
+                <e1:seccion>Arboles y Arbustos
+                </e1:seccion>
+            </e1:planta>
+            <e1:planta num="Segunda">
+                <e1:seccion>Herramientas</e1:seccion>
+                <e1:seccion>Terrazas y balcones</e1:seccion>
+            </e1:planta>
+        </e1:plantas>
+    </e1:edificio>
+</e1:jardineria>

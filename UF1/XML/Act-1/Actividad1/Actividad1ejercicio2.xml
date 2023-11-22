@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UF-8"?>
-<libreria>
-    <libro categoria="terror">
-        <titulo>Dracula</titulo>
-        <autor>Bram Stoker</autor>
-        <idioma>Ingles</idioma>
-        <año>1897</año>
-    </libro>
-</libreria>
