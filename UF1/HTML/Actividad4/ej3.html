@@ -7,9 +7,9 @@
         <h1><b>Formulario de registro</b></h1>
         <form action="" method="get">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre"><br><br>
+            <input type="text" max="50" id="nombre"><br><br>
             <label for="apellidos">Apellidos:</label>
-            <input type="text" id="apellidos"><br><br>
+            <input type="text" max="50" id="apellidos"><br><br>
             <label for="sexo">Sexo:</label>
             <select name="sexo" id="sexo">
                 <option value="Hombre">Hombre</option>
@@ -23,7 +23,16 @@
                 <option value="Madrid">Madrid</option>
                 <option value="Sevilla">Sevilla</option>
                 <option value="Valencia">Valencia</option>
-            </select>
+            </select><br><br>
+            <label for="descripcion">Descripción:</label><br>
+            <textarea></textarea><br><br>
+            <label for="subscripcion"></label>
+            <input type="checkbox" id="subscripcion" checked>
+            Deseo recibir información sobre novedades y ofertas <br><br>
+            <label for="declaracion"></label>
+            <input type="checkbox" id="declaracion">
+            Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos. <br><br>
+            <input type="submit" value="Enviar">
         </form>
 
     </body>
