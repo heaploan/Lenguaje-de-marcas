@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                background-color: gray;
+            }
+
+            div.one{
+                background-color: white;
+                padding: 25px;
+            }
+            
+            h1{
+                font-size: xx-large;
+            }
+
+            h3{
+                font-size: x-large
+            }
+
+            div.sep{
+                display: flex;
+            }
+
+            div.sep1{
+                width: 35%
+            }
+            div.izquierda{
+                text-align: right;
+            }
+
+            div.derecha{
+                text-align: left;
+            }
+
+            input:hover {
+                border: 2px solid purple;
+            }
+
+            label{ 
+                display: flex;
+                flex-direction: column;
+            }
+
+            input{
+                border: none;
+                border-bottom: 2px solid black;
+            }
+
+            select{
+                border: none;
+                border-bottom: 2px solid black;
+            }
+
+            select:hover{
+                border: 2px solid purple; 
+            }
+            button[type="submit"]{
+                float: right
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <h1>Formulario de registro</h1>
+            <hr>
+            <form action="" method="GET">
+                <div class="sep">
+                    <div class="sep1 izquierda">
+                        <h3>Nombre y apellidos</h3>
+                    </div>
+                    <div class="sep1 derecha">
+                        <br><br><input type="text" id="Nombre" required>
+                        <label for="Nombre">Nombre</label>
+                        <br><input type= "text" id="Apelido1">
+                        <label for="Apellido1">Primer apellido</label>
+                        <br><input type="text" id="Apellido2">
+                        <label for="Appellido2">Segundo apellido</label>
+                    </div>
+                </div><hr>
+                <div class="sep">
+                    <div class="sep1 izquierda">
+                        <h3>Dirección</h3>
+                    </div>
+                    <div class="sep1 derecha">
+                        <br><br><input type="text" id="direccion">
+                        <label for="direccion">Calle, número, piso, puerta</label>
+                        <br><input type="text" id="CP">
+                        <label for="CP">Código postal</label>
+                        <br><input type="text" id="municipio">
+                        <label for="municipio">Municipio</label>
+                        <br><select name="Provincia" id="select1">
+                            <option value="vacio" id=""></option>
+                            <option value="Provincia1">Provincia 01</option>
+                            <option value="Provincia2">Provincia 02</option>
+                            <option value="Provincia3">Provincia 03</option>
+                            <option value=""></option>
+                        </select>
+                        <label for="select1">Provincia</label>
+                        <br><select name="pais" id="select2">
+                            <option value="vacio" id=""></option>
+                            <option value="Pais1">Pais 01</option>
+                            <option value="Pais2">Pais 02</option>
+                            <option value="Pais3">Pais 03</option>
+                            <option value=""></option>   
+                        </select>
+                        <label for="select2">País</label>
+                    </div>
+                </div>
+                <hr>
+                <div class="sep">
+                    <div class="sep1 izquierda">
+                        <h3>Email</h3>
+                    </div>
+                    <div class="sep1 derecha">
+                        <br><br><input type="text" id="email">
+                    </div>
+                </div>
+                <hr>
+                <div class="sep">
+                    <div class="sep1 izquierda">
+                        <h3>Teléfono</h3>
+                    </div>
+                    <div class="sep1 derecha">
+                        <br><br><input type="text" id="fijo">
+                        <label for="fijo">Fijo</label>
+                        <br><input type="text" id="movil">
+                        <label for="movil">Movil</label>
+                    </div>
+                </div>
+                <hr>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>  
+    </body>
+</html>
