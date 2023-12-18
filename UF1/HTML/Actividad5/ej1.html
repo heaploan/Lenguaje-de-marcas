@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 1 Actividad 5</title>
+        <style>
+            header {
+                text-align: center;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: black;
+            }
+
+            li.dropdown {
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #333;
+                min-width: 120px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: black;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .active {
+                background-color: black;
+            }
+            section {
+                float: left;
+            }
+            aside {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Pagina Web</h1>
+            <img src="https://i.ibb.co/bLv9cLm/329128019-162430196645736-7523388776286582534-n.jpg" style="max-width: 30%; height: auto;">
+            <p>¡Bienvenido a nuestra página web!</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="setActive('home')">Home</a></li>
+                <li><a href="#" onclick="setActive('news')">News</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn" onclick="setActive('contact')">Contact</a>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="setActive('contact-info')">Contact info</a>
+                        <a href="#" onclick="setActive('contact-form')">Contact form</a>
+                    </div>
+                </li>
+                <li style="float:right"><a href="#" onclick="setActive('about')">About</a></li>
+            </ul>
+        </nav>
+  
+        <section>
+            <header>
+                <h2>Información de la página web</h2>
+            </header>
+            <p>Primer párrafo de información <br>
+            Segundo párrafo de información <br>
+            Tercer párrafo de información <br>
+            Cuarto párrafo de información <br>
+            Quinto párrafo de información </p>
+            
+        </section>
+        <aside>
+            <h3>Element 1</h3>
+            <p>Content element 1</p>
+            <h3>Element 2</h3>
+            <p>Content element 2</p>
+            <h3>Element 3</h3>
+            <p>Content element 3</p>
+            <h3>Element 4</h3>
+            <p>Content element 4</p>
+        </aside>
+        
+        <script>
+            function setActive(id) {
+                // Desactivar todas las opciones
+                var elements = document.querySelectorAll('.active');
+                elements.forEach(function(element) {
+                    element.classList.remove('active');
+                });
+
+                // Activar la opción seleccionada
+                var selectedElement = document.querySelector('[onclick="setActive(\'' + id + '\')"]');
+                selectedElement.classList.add('active');
+            }
+        </script>
+    </body>
+</html>
