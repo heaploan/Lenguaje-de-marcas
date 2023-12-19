@@ -4,6 +4,30 @@
         <title>Ejercicio 2 Actividad 5</title>
     </head>
     <body>
-        
+        <center><h1>Titulo de la pagina</h1></center>
+        <header><h2>Pagina de pedido</h2></header>
+        <img src="robot1.png" alt="Thermomix TM6">
+        <p>Descripcion del robot1</p>
+        <img src="robot2.pg" alt="KitchenAid Artisan Stand Mixer">
+        <p>Descripcion del robot2</p>
+        <img src="robot3.png" alt="Moulinex Companion XL">
+        <p>Descripcion del robot3</p>
+        <fieldset>
+            <legend><h3>Pedidos</h3></legend>
+            <form action="ejemplo@gmail.com" method="post">
+                <label for="select1">Selecciona el robot y la cantidad.</label>
+                <br>
+                <select name="Robots" id="select1">
+                    <option value="vacio" id=""></option>
+                    <option value="robot1">Robot 01</option>
+                    <option value="robot2">Robot 02</option>
+                    <option value="robot3">Robot 03</option>
+                </select>
+                <input type="number" min="1" max="20">
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </fieldset>
     </body>
 </html>

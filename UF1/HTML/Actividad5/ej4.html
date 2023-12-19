@@ -1,9 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Ejercicio 4 Actividad 5</title>
-    </head>
-    <body>
+<head>
+    <title>Ejercicio 4 Actividad 5</title>
+    <script>
+        var cronos;
+        var tiempo = 0;
 
-    </body>
+        function init() {
+            cronos = setInterval(function () { timer() }, 10); // Actualizado a 10 para milisegundos
+        }
+
+        function timer() {
+            tiempo += 10; // Incremento en milisegundos
+            var segundos = Math.floor(tiempo / 1000);
+            var milisegundos = tiempo % 1000;
+
+            document.getElementById('time').value = segundos + "." + pad(milisegundos, 3);
+        }
+
+        function reset() {
+            tiempo = 0;
+            document.getElementById('time').value = "0.000";
+        }
+
+        function stop() {
+            clearInterval(cronos);
+        }
+
+        // Función para agregar ceros a la izquierda si es necesario
+        function pad(number, length) {
+            var str = '' + number;
+            while (str.length < length) {
+                str = '0' + str;
+            }
+            return str;
+        }
+    </script>
+</head>
+<body>
+    <h1>Cronómetro</h1>
+    <p>Cronometro hecho para ayudar a los árbitros a contar el tiempo</p>
+    <input id="time" name="time" value="0.000" style="margin: 0; padding: 0; border: none;"/>
+    <br>
+    <input type="button" value="Empezar" onclick="init()" />
+    <input type="button" value="Reiniciar" onclick="reset()" />
+    <input type="button" value="Parar" onclick="stop()" />
+</body>
 </html>
