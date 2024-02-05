@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>EnumHostRSS - English</title>
+        <link>URL_DEL_TEU_SITI_WEB/articles_en.html</link>
+        <description>RSS Feed for DNS Enumeration Articles in English</description>
+
+        <item>
+            <title>DNS Enumeration</title>
+            <link>URL_DEL_ARTICLE_1_EN</link>
+            <description>We'll explore here the DNS process of enumeration and its significance in cybersecurity.</description>
+        </item>
+
+        <item>
+            <title>Tools for DNS Enumeration</title>
+            <link>URL_DEL_ARTICLE_2_EN</link>
+            <description>You'll learn about the tools used for DNS enumeration and their features for networking analysis.</description>
+        </item>
+    </channel>
+</rss>
+
